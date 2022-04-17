@@ -1,8 +1,8 @@
 <?php
 require_once "config.php";
 
-$array['pong'] = true;
-
-echo json_encode($array);
+$array['result'] = [
+    'pong' => true
+];
 
 require_once "return.php";
